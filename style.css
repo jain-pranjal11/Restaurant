@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.doctorshealthpress.com/wp-content/uploads/2017/07/ThinkstockPhotos-511661914.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#mid{
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+    opacity: .5;
+    z-index: 1;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 12%;
+    /* background-color: blue; */
+    font-size: 17px;
+    border-bottom: 2px solid rgb(109, 109, 109);
+    z-index: 9;
+}
+
+#left{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    /* background-color: red; */
+}
+
+#right{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    /* background-color: red; */
+}
+
+#left a,#right a{
+    text-decoration: none;
+    color: #000;
+}
+
+#right i{
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+}
+
+#logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+    /* background-color: red; */
+    width: 160px;
+    height: 100%;
+}
+
+#logo img{
+    position: absolute;
+    text-align: center;
+    transform: translate(0%,-50%);
+    height: 60px;
+    transform: rotate(90deg);
+    margin-bottom: 28px;
+}
+
+#logo h4{
+    margin-top: 35px;
+}
+
+/* #logo h6{
+    text-align: center;
+} */
+
+#text{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    z-index: 99;
+}
+
+#text h1{
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#text h4{
+    margin-top: 50px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 230px;
+    height: 50px;
+    background-color: #000;
+}
+
+#box h2{
+    font-size: 17px;
+    color: #fff;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    /* background-color: red; */
+    margin-top: 160px;
+    font-size: 20px;
+}
+
+#image img{
+    position: absolute;
+    left: 46%;
+    top: 17%;
+    height: 500px;
+    z-index: 1;
+}
+
+#midbtm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 40%;
+    height: 23%;
+    bottom: 3%;
+    /* background-color: red; */
+    z-index: 1;
+}
+
+#b1,#b2,#b3{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+#midbtm img{
+    margin-top: 60px;
+    height: 120px;
+}
+/* 
+#midbtm h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+} */
+
+#text2{
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    /* background-color: orange; */
+}
+
+#text2 h1{
+    font-size: 60px;
+    color: rgb(185, 185, 185);
+    font-weight: 300;
+}
+
+#text2 h2{
+    font-family: PERTILI;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#t{
+    margin-top: 15px;
+}
+
+#t h4{
+    margin-top: 18px;
+    font-size: 17px;
+    word-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    color: rgb(185, 185, 185);
+}
+
+#t1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#t1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #000;
+    margin-top: 30px;
+}
+
+#t1 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-right: 80px;
+    color: #000;
+}
+
+#t2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    width: 200px;
+}
+
+#t2 h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#t2 #h5{
+    color: rgb(185, 185, 185);
+}
+
+#t3{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0px;
+    width: 360px;
+    height: 130px;
+}
+
+#plate{
+    position: relative;
+    width: 170px;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1518133683791-0b9de5a055f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2QlMjBwbGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#recipe{
+    width: 190px;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#rtext{
+    margin-top: 30px;
+}
+
+#rtext h4{
+    font-size: 15px;
+    font-weight: 100;
+    color: #000;
+    line-height: 2px;
+    margin-left: 20px;
+}
+
+#rtext h5{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #000;
+}
+
+#plate i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
